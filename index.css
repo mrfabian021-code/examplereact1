@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* styles.css */
+
+.page {
+  font-family: "Segoe UI", sans-serif;
+  color: #3b2f2f;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #4b2e2b;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  color: #e8d6bc;;
+  
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(rgba(132, 91, 87, 0.8), rgba(86, 62, 60, 0.8)),
+    url("https://i.pinimg.com/736x/b8/69/fc/b869fc2b88988535b1fad65b4c2aae59.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.primary-btn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.75rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  background: #f4e7d3;
+  color: #4b2e2b;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #e8d6bc;
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff7ee;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.about {
+  background: #f4e7d3;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #4b2e2b;
+  color: white;
+}
